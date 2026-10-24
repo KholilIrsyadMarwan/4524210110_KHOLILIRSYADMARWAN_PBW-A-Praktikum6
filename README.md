@@ -111,7 +111,8 @@ Tugas 1: Implementasi Dasar (Nilai: 40)
 Implementasikan semua langkah di atas dan buktikan dengan:
 
 ### 1. Screenshot admin panel yang berhasil login
-https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/59d93f07fbdc8a83aa138ee32b70d1e6d868c103/screenshot/dashboard.jpeg
+![Dashboard](screenshot/dashboard.jpeg)
+
 ### 2. Screenshot list books dengan data yang terseed
 
 ### 3. Screenshot form create book
