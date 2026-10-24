@@ -177,12 +177,36 @@ authors: id, name, timestamps
 
 books: id, isbn, title, author_id, publisher, year, cover, status, timestamps
 
-### 📸 Hasil Screenshot Tampilan Aplikasi
-### 1. Halaman Login Admin
-### 2. Dashboard Utama Admin Panel
-### 3. Daftar Buku (Seeded 50 Data Books)
-### 4. Form Tambah Buku (Create Book)
-### 5. Detail Informasi Buku (View Book)
-### 6. Fitur Pencarian Data Buku (Search)
-### 7. Fitur Filtering Aktif pada Tabel
-### 8. Kelola Data Penulis (Author List)
+## 📸 Hasil Screenshot Tampilan Aplikasi
+
+1. **Halaman Login Admin**  
+   ![Login Page](screenshot/login.jpeg)  
+   🔗 *Link Gambar:* [login.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/login.jpeg)
+
+2. **Dashboard Utama Admin Panel**  
+   ![Dashboard](screenshot/dashboard.jpeg)  
+   🔗 *Link Gambar:* [dashboard.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/dashboard.jpeg)
+
+3. **Daftar Buku (Seeded 50 Data Books)**  
+   ![List Books](screenshot/list_books.jpeg)  
+   🔗 *Link Gambar:* [list_books.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/list_books.jpeg)
+
+4. **Form Tambah Buku (Create Book)**  
+   ![Create Book Form](screenshot/create_book.jpeg)  
+   🔗 *Link Gambar:* [create_book.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/create_book.jpeg)
+
+5. **Detail Informasi Buku (View Book)**  
+   ![View Book](screenshot/view_book.jpeg)  
+   🔗 *Link Gambar:* [view_book.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/view_book.jpeg)
+
+6. **Fitur Pencarian Data Buku (Search)**  
+   ![Hasil Pencarian](screenshot/hasil_pencarian.jpeg)  
+   🔗 *Link Gambar:* [hasil_pencarian.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/hasil_pencarian.jpeg)
+
+7. **Fitur Filtering Aktif pada Tabel**  
+   ![Filter Aktif](screenshot/filter_aktif.jpeg)  
+   🔗 *Link Gambar:* [filter_aktif.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/filter_aktif.jpeg)
+
+8. **Kelola Data Penulis (Author List)**  
+   ![Author List](screenshot/author.jpeg)  
+   🔗 *Link Gambar:* [author.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/author.jpeg)
