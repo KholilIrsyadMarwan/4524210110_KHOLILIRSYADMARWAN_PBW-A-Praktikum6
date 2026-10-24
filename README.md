@@ -56,26 +56,32 @@ Ini, TOML
 DB_CONNECTION=sqlite
 
 ### 4. Setup Database & Seeding Data Dummy
-Jalankan migrasi database untuk membuat tabel authors & books, sekaligus mengisi data dummy (10 Author & 50 Book):
+Jalankan migrasi database untuk membuat tabel authors & books, sekaligus mengisi data dummy (10 Author & 50 Book): <br>
 
+```
 Bash
 php artisan migrate:fresh --seed
+```
 
 ### 5. Membuat Account Admin Filament
-Buat akun pengguna agar bisa masuk ke dalam Filament Admin Panel:
+Buat akun pengguna agar bisa masuk ke dalam Filament Admin Panel: <br>
 
+```
 Bash
 php artisan make:filament-user
-Input data akun:
+```
 
-Name: Admin
+Input data akun: <br>
 
-Email address: admin@example.com
+Name: Admin<br>
 
-Password: password
+Email address: admin@example.com<br>
+
+Password: password<br>
 
 ### 6. Jalankan Local Development Server
-Jalankan server bawaan Laravel:
-
+Jalankan server bawaan Laravel: <br>
+```
 Bash
 php artisan serve
+```
