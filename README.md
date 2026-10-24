@@ -68,8 +68,7 @@ php artisan migrate:fresh --seed
 ### 5. Membuat Account Admin Filament
 Buat akun pengguna agar bisa masuk ke dalam Filament Admin Panel: <br>
 
-```
-bash
+```bash
 php artisan make:filament-user
 ```
 
