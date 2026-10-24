@@ -22,3 +22,44 @@ Buka terminal dan jalankan perintah clone untuk mengunduh repositori:
 ```bash
 git clone [https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A.git](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A.git)
 cd 4524210110_KHOLILIRSYADMARWAN_PBW-A/Praktikum6/authbook
+
+2. Install PHP Dependencies
+Instal seluruh pustaka PHP yang dibutuhkan (termasuk Filament v3):
+
+Bash
+composer install
+3. Setup Environment (.env)
+Salin file .env.example menjadi .env lalu generate application key:
+
+Bash
+cp .env.example .env
+php artisan key:generate
+Catatan Konfigurasi Database (SQLite):
+
+Pastikan di dalam file .env variabel database sudah terkonfigurasi ke SQLite:
+
+Ini, TOML
+DB_CONNECTION=sqlite
+4. Setup Database & Seeding Data Dummy
+Jalankan migrasi database untuk membuat tabel authors & books, sekaligus mengisi data dummy (10 Author & 50 Book):
+
+Bash
+php artisan migrate:fresh --seed
+5. Membuat Account Admin Filament
+Buat akun pengguna agar bisa masuk ke dalam Filament Admin Panel:
+
+Bash
+php artisan make:filament-user
+Input data akun:
+
+Name: Admin
+
+Email address: admin@example.com
+
+Password: password
+
+6. Jalankan Local Development Server
+Jalankan server bawaan Laravel:
+
+Bash
+php artisan serve
