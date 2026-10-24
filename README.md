@@ -120,17 +120,28 @@ Implementasikan semua langkah di atas dan buktikan dengan:
 ### 4. Screenshot hasil pencarian
 
 ### 5. Screenshot filter aktif
+
 ### 💡 Jawaban Bukti Implementasi (Screenshot):
-###  1. Screenshot Admin Panel yang Berhasil Login
+
+#### 1. Screenshot Admin Panel yang Berhasil Login
 ![Dashboard](screenshot/dashboard.jpeg)
-###  2. Screenshot List Books dengan Data yang Terseed (50 Books)
-   ![List Books](screenshot/list_books.jpeg)
-###  3. Screenshot Form Create Book
-   ![Form Create Book](screenshot/create_book.jpeg)
-###  4. Screenshot Hasil Pencarian
-   ![Hasil Pencarian](screenshot/hasil_pencarian.jpeg)
-###  5. Screenshot Filter Aktif
-   ![Filter Aktif](screenshot/filter_aktif.jpeg)
+🔗 *Link Gambar:* [dashboard.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/dashboard.jpeg)
+
+#### 2. Screenshot List Books dengan Data yang Terseed (50 Books)
+![List Books](screenshot/list_books.jpeg)
+🔗 *Link Gambar:* [list_books.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/list_books.jpeg)
+
+#### 3. Screenshot Form Create Book
+![Form Create Book](screenshot/create_book.jpeg)
+🔗 *Link Gambar:* [create_book.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/create_book.jpeg)
+
+#### 4. Screenshot Hasil Pencarian
+![Hasil Pencarian](screenshot/hasil_pencarian.jpeg)
+🔗 *Link Gambar:* [hasil_pencarian.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/hasil_pencarian.jpeg)
+
+#### 5. Screenshot Filter Aktif
+![Filter Aktif](screenshot/filter_aktif.jpeg)
+🔗 *Link Gambar:* [filter_aktif.jpeg](https://github.com/KholilIrsyadMarwan/4524210110_KHOLILIRSYADMARWAN_PBW-A-Praktikum6/blob/main/screenshot/filter_aktif.jpeg)
 
 ### 🎯 Tentang Aplikasi
 AuthBook adalah aplikasi pengelolaan katalog pustaka digital berbasis admin panel yang responsif dan interaktif. Dikelola menggunakan framework Laravel 11 dan Filament v3, sistem ini memungkinkan administrator untuk mengelola data penulis (author) serta koleksi buku secara terstruktur.
