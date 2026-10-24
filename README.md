@@ -98,7 +98,6 @@ php artisan serve
 
 - [🚀 Instalasi & Penggunaan](#-instalasi--penggunaan)
 - [📌 Soal & Jawaban Tugas 1](#-soal--jawaban-tugas-1)
-- [🌐 Halaman yang Tersedia](#-halaman-yang-tersedia)
 - [🎯 Tentang Aplikasi](#-tentang-aplikasi)
 - [🎯 Tujuan Praktikum](#-tujuan-praktikum)
 - [✨ Fitur Utama](#-fitur-utama)
@@ -132,3 +131,58 @@ Implementasikan semua langkah di atas dan buktikan dengan:
    ![Hasil Pencarian](screenshot/hasil_pencarian.jpeg)
 ###  5. Screenshot Filter Aktif
    ![Filter Aktif](screenshot/filter_aktif.jpeg)
+
+### 🎯 Tentang Aplikasi
+AuthBook adalah aplikasi pengelolaan katalog pustaka digital berbasis admin panel yang responsif dan interaktif. Dikelola menggunakan framework Laravel 11 dan Filament v3, sistem ini memungkinkan administrator untuk mengelola data penulis (author) serta koleksi buku secara terstruktur.
+
+### 🎯 Tujuan Praktikum
+Memahami pembuatan admin panel modern dengan Filament v3.
+
+Mengimplementasikan skema database relasional (Relationship HasMany & BelongsTo) antara Model Author dan Book.
+
+Menerapkan pengisian data otomatis (Data Seeding & Factory) untuk 10 Penulis dan 50 Buku.
+
+Menyiapkan otorisasi hak akses menggunakan Laravel Policy untuk mengamankan data.
+
+### ✨ Fitur Utama
+✅ Authentication Admin Panel - Proteksi login khusus user administrator.
+
+✅ Manajemen Author (Penulis) - Fitur CRUD lengkap untuk data penulis.
+
+✅ Manajemen Book (Buku) - Fitur CRUD koleksi buku lengkap dengan ISBN, Cover, Tahun, dan Status.
+
+✅ Search & Filter Table - Pencarian instan dan penyaringan data interaktif pada tabel buku.
+
+✅ Automated Seeding - Pengisian 10 data Author dan 50 data Buku instan saat migrasi.
+
+✅ Authorization Policy - Pengaturan izin akses aksi CRUD berbasis Policy.
+
+### 🛠️ Tech Stack
+Backend
+Laravel 11.x - PHP Framework
+
+PHP ^8.2 - Programming Language
+
+SQLite - Database Storage
+
+Eloquent ORM - Database Management
+
+Admin Panel & Frontend
+Filament v3 - Admin Panel Framework
+
+Tailwind CSS - UI Styling Framework
+
+### 🗄️ Struktur Database
+authors: id, name, timestamps
+
+books: id, isbn, title, author_id, publisher, year, cover, status, timestamps
+
+### 📸 Hasil Screenshot Tampilan Aplikasi
+### 1. Halaman Login Admin
+### 2. Dashboard Utama Admin Panel
+### 3. Daftar Buku (Seeded 50 Data Books)
+### 4. Form Tambah Buku (Create Book)
+### 5. Detail Informasi Buku (View Book)
+### 6. Fitur Pencarian Data Buku (Search)
+### 7. Fitur Filtering Aktif pada Tabel
+### 8. Kelola Data Penulis (Author List)
