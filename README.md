@@ -36,10 +36,12 @@ cd 4524210110_KHOLILIRSYADMARWAN_PBW-A/authbook
 
 ```
 ### 2. Install PHP Dependencies
-Instal seluruh pustaka PHP yang dibutuhkan (termasuk Filament v3):
-Bash
-composer install
+Instal seluruh pustaka PHP yang dibutuhkan (termasuk Filament v3): <br>
 
+
+``` bash
+composer install
+```
 
 ### 3. Setup Environment (.env)
 
@@ -53,14 +55,13 @@ Catatan Konfigurasi Database (SQLite):
 
 Pastikan di dalam file .env variabel database sudah terkonfigurasi ke SQLite:
 
-Ini, TOML
+Ini, TOML 
 DB_CONNECTION=sqlite
 
 ### 4. Setup Database & Seeding Data Dummy
 Jalankan migrasi database untuk membuat tabel authors & books, sekaligus mengisi data dummy (10 Author & 50 Book): <br>
 
-```
-bash
+```bash
 php artisan migrate:fresh --seed
 ```
 
@@ -82,7 +83,7 @@ Password: password<br>
 
 ### 6. Jalankan Local Development Server
 Jalankan server bawaan Laravel: <br>
-```
-bash
+
+```bash
 php artisan serve
 ```
