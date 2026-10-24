@@ -45,9 +45,10 @@ composer install
 
 Salin file .env.example menjadi .env lalu generate application key:
 
-Bash
+``` bash
 cp .env.example .env
 php artisan key:generate
+```
 Catatan Konfigurasi Database (SQLite):
 
 Pastikan di dalam file .env variabel database sudah terkonfigurasi ke SQLite:
@@ -59,7 +60,7 @@ DB_CONNECTION=sqlite
 Jalankan migrasi database untuk membuat tabel authors & books, sekaligus mengisi data dummy (10 Author & 50 Book): <br>
 
 ```
-Bash
+bash
 php artisan migrate:fresh --seed
 ```
 
@@ -67,7 +68,7 @@ php artisan migrate:fresh --seed
 Buat akun pengguna agar bisa masuk ke dalam Filament Admin Panel: <br>
 
 ```
-Bash
+bash
 php artisan make:filament-user
 ```
 
@@ -82,6 +83,6 @@ Password: password<br>
 ### 6. Jalankan Local Development Server
 Jalankan server bawaan Laravel: <br>
 ```
-Bash
+bash
 php artisan serve
 ```
