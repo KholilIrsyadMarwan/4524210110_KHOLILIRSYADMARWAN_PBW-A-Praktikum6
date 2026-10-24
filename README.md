@@ -13,16 +13,24 @@ Aplikasi manajemen buku dan penulis berbasis web yang dibangun menggunakan Larav
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
 </p>
 
-## 📋 Daftar Isi
+📋 Daftar Isi
+Instalasi & Penggunaan
 
-- [Instalasi & Penggunaan](#-instalasi--penggunaan)
-- [Tentang Aplikasi](#-tentang-aplikasi)
-- [Tujuan Praktikum](#-tujuan-praktikum)
-- [Fitur Utama](#-fitur-utama)
-- [Tech Stack](#-tech-stack)
-- [Struktur Database](#-struktur-database)
-- [📸 Hasil Screenshot Tampilan Aplikasi](#-hasil-screenshot-tampilan-aplikasi)
+Soal & Jawaban Tugas 1
 
+Halaman yang Tersedia
+
+Tentang Aplikasi
+
+Tujuan Praktikum
+
+Fitur Utama
+
+Tech Stack
+
+Struktur Database
+
+📸 Hasil Screenshot Tampilan Aplikasi
 ---
 
 ### 1. Clone Repository
