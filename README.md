@@ -111,7 +111,7 @@ Tugas 1: Implementasi Dasar (Nilai: 40)
 Implementasikan semua langkah di atas dan buktikan dengan:
 
 ### 1. Screenshot admin panel yang berhasil login
-![Dashboard](screenshot/dashboard.jpeg)
+
 
 ### 2. Screenshot list books dengan data yang terseed
 
@@ -120,10 +120,14 @@ Implementasikan semua langkah di atas dan buktikan dengan:
 ### 4. Screenshot hasil pencarian
 
 ### 5. Screenshot filter aktif
-
 ### 💡 Jawaban Bukti Implementasi (Screenshot):
 ###  1. Screenshot Admin Panel yang Berhasil Login
+![Dashboard](screenshot/dashboard.jpeg)
 ###  2. Screenshot List Books dengan Data yang Terseed (50 Books)
+   ![List Books](screenshot/list_books.jpeg)
 ###  3. Screenshot Form Create Book
+   ![Form Create Book](screenshot/create_book.jpeg)
 ###  4. Screenshot Hasil Pencarian
+   ![Hasil Pencarian](screenshot/hasil_pencarian.jpeg)
 ###  5. Screenshot Filter Aktif
+   ![Filter Aktif](screenshot/filter_aktif.jpeg)
