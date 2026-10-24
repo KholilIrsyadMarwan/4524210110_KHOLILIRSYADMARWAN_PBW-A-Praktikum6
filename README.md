@@ -94,24 +94,17 @@ Jalankan server bawaan Laravel: <br>
 ```bash
 php artisan serve
 ```
- ### 📋 Daftar Isi
-Instalasi & Penggunaan
+## 📋 Daftar Isi
 
-Soal & Jawaban Tugas 1
-
-Halaman yang Tersedia
-
-Tentang Aplikasi
-
-Tujuan Praktikum
-
-Fitur Utama
-
-Tech Stack
-
-Struktur Database
-
-📸 Hasil Screenshot Tampilan Aplikasi
+- [🚀 Instalasi & Penggunaan](#-instalasi--penggunaan)
+- [📌 Soal & Jawaban Tugas 1](#-soal--jawaban-tugas-1)
+- [🌐 Halaman yang Tersedia](#-halaman-yang-tersedia)
+- [🎯 Tentang Aplikasi](#-tentang-aplikasi)
+- [🎯 Tujuan Praktikum](#-tujuan-praktikum)
+- [✨ Fitur Utama](#-fitur-utama)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🗄️ Struktur Database](#️-struktur-database)
+- [📸 Hasil Screenshot Tampilan Aplikasi](#-hasil-screenshot-tampilan-aplikasi)
 
  ### 📌 Soal & Jawaban Tugas 1
 Tugas 1: Implementasi Dasar (Nilai: 40)
