@@ -86,7 +86,7 @@ Jalankan server bawaan Laravel: <br>
 ```bash
 php artisan serve
 ```
-📋 Daftar Isi
+ ### 📋 Daftar Isi
 Instalasi & Penggunaan
 
 Soal & Jawaban Tugas 1
@@ -105,7 +105,7 @@ Struktur Database
 
 📸 Hasil Screenshot Tampilan Aplikasi
 
-📌 Soal & Jawaban Tugas 1
+ ### 📌 Soal & Jawaban Tugas 1
 Tugas 1: Implementasi Dasar (Nilai: 40)
 
 Implementasikan semua langkah di atas dan buktikan dengan:
@@ -120,9 +120,9 @@ Implementasikan semua langkah di atas dan buktikan dengan:
 
 ### 5. Screenshot filter aktif
 
-💡 Jawaban Bukti Implementasi (Screenshot):
-1. Screenshot Admin Panel yang Berhasil Login
-2. Screenshot List Books dengan Data yang Terseed (50 Books)
-3. Screenshot Form Create Book
-4. Screenshot Hasil Pencarian
-5. Screenshot Filter Aktif
+### 💡 Jawaban Bukti Implementasi (Screenshot):
+###  1. Screenshot Admin Panel yang Berhasil Login
+###  2. Screenshot List Books dengan Data yang Terseed (50 Books)
+###  3. Screenshot Form Create Book
+###  4. Screenshot Hasil Pencarian
+###  5. Screenshot Filter Aktif
